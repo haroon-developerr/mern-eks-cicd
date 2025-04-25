@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - 'client/**'
+      - 'react-client/**'
       - '.github/workflows/eks-client-deployment.yaml'
   workflow_dispatch:
 

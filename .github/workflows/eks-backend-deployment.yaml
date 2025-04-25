@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-      - 'backend/**'
+      - 'API-jokes/**'
       - '.github/workflows/eks-backend-deployment.yaml'
   workflow_dispatch:
 
