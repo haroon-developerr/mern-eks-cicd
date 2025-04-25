@@ -1,0 +1,18 @@
+ingress:
+  enabled: true
+  name: ingress-mern-service
+  namespace: mern-ns
+  ingressClassName: nginx
+  host: a06d3da3fdc0e4c0e8ef018ede6bfccc-1359c91def1fed8d.elb.us-east-1.amazonaws.com
+  rules:
+    - path: "/"
+      service:
+        name: client-service
+        port:
+          number: 80
+
+    - path: "/api"
+      service:
+        name: backend-service
+        port:
+          number: 5000
