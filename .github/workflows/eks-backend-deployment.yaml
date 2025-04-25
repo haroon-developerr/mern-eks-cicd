@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'backend/**'
+      - '.github/workflows/eks-backend-deployment.yaml'
   workflow_dispatch:
 
 env:
