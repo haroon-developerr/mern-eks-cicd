@@ -8,7 +8,7 @@ on:
 env:
   REACT_IMAGE_NAME: k8s-client
   AWS_REGION: us-east-1
-  ECS_CLUSTER: mern-app-cluster
+  EKS_CLUSTER: mern-app-cluster
   DEPLOYMENT_OBJ_NAME: mern-client
   NAMESPACE: mern-ns
 jobs:
